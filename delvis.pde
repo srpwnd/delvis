@@ -38,7 +38,7 @@ void setup() {
   points = new ArrayList<float[]>();
   
   minim = new Minim(this);
-  player = minim.loadFile("SOUND_FILE"); //provide your soundfile
+  player = minim.loadFile("milk.mp3"); //provide your soundfile
   beat = new BeatDetect();
   beat.detectMode(BeatDetect.FREQ_ENERGY);
   //player.play();
