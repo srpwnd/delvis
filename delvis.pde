@@ -45,9 +45,6 @@ void setup() {
   player.loop();
   
   fft = new FFT(player.bufferSize(),player.sampleRate());
-  
-  videoExport = new VideoExport(this);
-  videoExport.startMovie();
 }
 
 void draw() {
